@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using Npgsql;
+using System.Configuration;
 
 namespace PosgresSQLSample
 {
@@ -8,8 +9,7 @@ namespace PosgresSQLSample
     {
         static void Main(string[] args)
         {
-            var connString = "Host=myserver;Username=mylogin;Password=mypass;Database=mydatabase";
-
+            var connString = ConfigurationManager.ConnectionStrings["db"]?.ConnectionString;
             using (var conn = new NpgsqlConnection(connString))
             {
                 conn.Open();
