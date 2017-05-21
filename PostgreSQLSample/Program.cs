@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Data.Linq;
 using System.Text;
 
-namespace PosgresSQLSample
+namespace PostgreSQLSample
 {
     class Program
   {

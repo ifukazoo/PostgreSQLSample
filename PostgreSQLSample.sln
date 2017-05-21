@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosgresSQLSample", "PosgresSQLSample\PosgresSQLSample.csproj", "{F133804C-96F6-4B4D-A48D-D94B159298FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreSQLSample", "PostgreSQLSample\PostgreSQLSample.csproj", "{F133804C-96F6-4B4D-A48D-D94B159298FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
